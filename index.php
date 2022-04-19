@@ -17,6 +17,12 @@ class movie{
     }
 }
 
+//istanze  
+$KM_1 = new movie("Kingsman","secret service",7.5);
+$KM_2 = new movie("Kingsman","il cerchio d'oro",8);
+$KM_3 = new movie("Kingsman","le origini",7);
+
+
 ?>
 
 <!DOCTYPE html>
