@@ -34,6 +34,47 @@ $KM_3 = new movie("Kingsman","le origini",7);
     <title>Document</title>
 </head>
 <body>
+
+    <ol>
+        <li>
+            <span>
+                <?php
+                    echo $KM_1->getTitle();
+                ?>
+            </span>
+            <span>
+                <?php
+                    echo $KM_1->voto;
+                ?>
+            </span>
+        </li>
+        <li>
+            <span>
+                <?php
+                    echo $KM_2->getTitle();
+                 ?>
+            </span>
+            <span>
+                <?php
+                    echo $KM_2->voto;
+                 ?>
+            </span>
+        </li>
+        <li>
+            <span>
+                <?php
+                    echo $KM_3->getTitle();
+                ?>
+            </span>
+            <span>
+                <?php
+                    echo $KM_3->voto;
+                ?>
+            </span>
+        </li>
+    </ol>
+
+
     
 </body>
 </html>
